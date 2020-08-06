@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls (array)
   array.each do |word|
-    word.length > 4
+    array.include? (word.length > 4)
     end
 end
 

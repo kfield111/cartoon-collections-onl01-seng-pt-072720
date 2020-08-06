@@ -9,8 +9,7 @@ def summon_captain_planet (array)
 end
 
 def long_planeteer_calls (array)
-  i = 0
-  while i < array.length
+  array.each do |word|
     if yield array.include? (word.length > 4)
       return true
     end

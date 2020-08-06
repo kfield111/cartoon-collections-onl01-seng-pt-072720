@@ -14,5 +14,5 @@ end
 
 def find_the_cheese (array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.detect { |name| if cheese_types.any? return cheese_types.first}
+  array.detect { |name| if cheese_types.any?}
 end
